@@ -6,6 +6,74 @@
     <title>lec 5 </title>
 </head>
 <body>
-    
+    <form action="" method="get" enctype="multipart/form-data">
+      <fieldset>
+        <legend>persnal information</legend>
+          <div class="">
+            <label for="name">Name</label>
+                <input type="text" placeholder="your name.." name="name" id="name">
+        </div>
+<br>
+        <div class="">
+            <label for="email">Email </label>
+                <input type="email" placeholder="your email.." name="email" id="email">
+        </div>
+   
+    <br>
+    <div class="">
+            <label for="password">Password</label>
+                <input type="password" placeholder="your password" name="password" id="password">
+           
+        </div>
+        <br>
+        
+    <div class="">
+            <label for="image ">Image</label>
+                <input type="file" name="image" id="image">
+         
+        </div>
+      </fieldset>
+<br>
+       <fieldset>
+        <legend>other information</legend>
+         <div class="">
+  <label for="gender"> <strong>Gender</strong></label><br>
+  <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+    <input type="radio" name="gender" value="female" id="female"><label for="female">Femsle</label>
+</div> 
+<br>
+ <div class="">
+            <label for="you birthday"><strong>Date of birthday</strong></label>
+                <input type="datetime-local" name="dob" id="dob">
+         
+        </div>
+        <br>
+         <div class="">
+            <label for="age">Age </label>
+                <input type="number" placeholder="your age.." name="age" id="age">
+        </div>
+        <br>
+          <div class="">
+            <label for="education">Education </label>
+               <select name="education" id="education">
+                  <option value="" disabled selected >your choose..</option>
+                <option value="1Diploma">Diploma</option>
+                 <option value="2Bachelor">Bachelor</option>
+                  <option value="3Master">Master</option>
+                   <option value="4PHd">PHd</option>
+               </select>
+        </div>
+  <br>
+         <div class="">
+            <label for="bio">Bio </label>
+               <textarea name="bio" id="bio" placeholder=" your bio..." rows="4"></textarea>
+        </div>
+        <br>
+       </fieldset>
+       <br>
+        <button type="submit">send data</button>
+         </form>
+
+         
 </body>
 </html>
