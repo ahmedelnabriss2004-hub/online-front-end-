@@ -1,0 +1,27 @@
+.btn{
+    background-color: rgb(190, 190, 38);
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.team-member img {
+width: 60px;
+height: 60px;
+border-radius: 90%;
+border: 3px solid #c7b65e;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo img{
+ width: 60px;
+height: 60px;
+border-radius: 90%;
+border: 3px solid #c7b65e;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);   
+}
+
+
