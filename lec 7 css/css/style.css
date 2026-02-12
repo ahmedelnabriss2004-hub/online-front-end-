@@ -50,7 +50,7 @@ body{
 }
 
 .input-box input::placeholder{
-    color: #000000;
+    color: #14178123;
 }
 
 .input-box i{
@@ -98,5 +98,5 @@ body{
     margin-top: 20px;
 }
 .register-link p{
-    color: #9c3c3c;
+    color: #f78686;
 }
