@@ -1,0 +1,107 @@
+*{
+box-sizing: border-box;   
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+
+    width: 50px;
+    margin: auto;
+    padding: 10px;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
+
+.logo{
+    width: 280px;
+   margin: 40px 20px 10px 40px;
+    padding: 20px 30px;
+    display: block;
+    display: flexbox;
+}
+
+.codeBrainer{
+  
+width:700%;
+padding:300px 0;
+margin: 40px 20px 10px 40px;
+background-image: url(../images/codebb.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: justify;
+
+}
+
+.x{
+    text-align:inherit;
+    margin: 40px 20px 10px 40px;
+}
+
+.b{
+    padding: 80px 40px;
+margin: 40px 20px 10px 40px;
+}
+
+.n{
+    width: 1200px;
+
+}
+
+.r{
+    width: 300px;
+}
+.oop{
+     text-align:justify;
+   padding: 80px 40px;
+   margin: 40px 20px 10px 40px;
+}
+
+
+ 
+.how{
+     text-align:justify;
+   padding: 80px 40px;
+   margin: 40px 20px 10px 40px; 
+}
+
+.ow{
+    width: 400px;
+}
+
+.poo{
+      text-align:justify;
+   padding: 80px 40px;
+   margin: 40px 20px 10px 40px; 
+}
+   
+.ttt{
+  padding: 40 280px;
+   margin: 40px 20px 10px 40px;  
+   text-align: right;  
+}
+
+.po{
+    width: 400px;
+}
+
+
+.a{
+    display: inline-flex;
+    width: 20%;
+    padding: 10px 1300px;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin:40px 1200px;  
+    background-color: rgb(91, 4, 105); 
+    color: #fff;
+   border: 2px solid;
+   border-radius: 50%;
+ 
+}
+
