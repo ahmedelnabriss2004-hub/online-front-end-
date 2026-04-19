@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+
+    width: 50px;
+    ;
+    margin: auto;
+}
+
+.fom {
+    margin-top: 20px;
+    border: 1px;
+    text-align: center;
+    border-radius: 15px;
+    transition: ;
+}
+
+.soci {
+    border: 1px;
+    text-align: center;
+
+    border-radius: 15px;
+}

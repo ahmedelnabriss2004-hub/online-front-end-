@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="fom">
+      <form action="" method="get" enctype="multipart/form-data">
+        <div class="name">
+            <label for="name">Name</label><br>
+        <input type="text" placeholder="your name.." name"name" id="name">
+        </div><br>
+        <div class="password">
+            <label for="password">password</label><br>
+        <input type="password" placeholder="your password.." name"password" id="password">
+        </div><br>
+        <div class="email">
+            <label for="email">Email</label><br>
+        <input type="email" placeholder="your email.." name"email" id="email">
+        </div><br>
+       <div class="soci">
+         <div class="image">
+            <label for="image">your image</label><br>
+        <input type="file" placeholder="" name"image" id="image"><br><br>
+        </div class="age">
+        <label for="age">Age</label>
+        <input type="" placeholder="your age.." name"age" id="age">
+        </div><br><br>
+        <div class="age"><br>
+            <label for="birth">date of birth</label><br>
+        <input type="datetime-local" placeholder="" name"birth" id="birth">
+        </div><br>
+        <div class="gender">
+            <label for="gender">gender</label><br>
+        <input type="radio"name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio"name="gender" value="female">
+        <label for="female">female</label>
+        </div><br>
+        <div class="education">
+            <label for="education">Education</label><br>
+            <select name="education" id="education">
+                <option value="" disabled selected>select</option>
+                <option value="1">Diploma</option>
+                    <option value="2">Bachelor</option>
+                    <option value="3">Master</option>
+                    <option value="4">PHd</option>
+            </select>
+        </div><br>
+        <div class="bio"><br>
+       </div>
+            <label for="bio">Bio</label><br>
+            <textarea name="bio" id="bio" placeholder="your bio..."></textarea>
+        </div><br>
+    </form>
+  </div>
+</body>
+</html>
